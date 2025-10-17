@@ -42,7 +42,7 @@ public class TickerListFragment extends Fragment {
         if (tickerList.size() < 6) {
             tickerList.add(ticker);
         } else {
-            tickerList.set(5, ticker); // replace 6th entry
+            tickerList.set(5, ticker); //replace 6th entry
         }
         adapter.notifyDataSetChanged();
     }
